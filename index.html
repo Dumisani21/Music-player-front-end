@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/themify-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="app">
+      <div class="top-panel">
+          <div class="row">
+            <div class="col">
+                <i class="fa fa-arrow-left"></i>
+                <h4>All Songs</h4>
+            </div>
+            <div class="col">
+                <i class="fa fa-search"></i>
+                <i class="ti-menu"></i>
+            </div>
+          </div>
+          <div class="row-section">
+            <li class="item-selection">Songs</li>
+            <li>Artists</li>
+            <li>Albums</li>
+            <li>Folders</li>
+          </div>
+      </div>
+      <div class="music-section">
+          <div class="top-bar">
+              <div class="col">
+                <i class="fa fa-play-circle"></i>
+                <h3>Play all <span class="total">(Nan)</span></h3>
+              </div>
+              <div class="col">
+                  <i class="fa fa-list-ul"></i>
+              </div>
+          </div>
+
+          <div class="music-list">
+              <div class="music">
+                  <div class="music-header">
+                      <h4 class="music-title">Music Title</h4>
+                      <p class="music-subtitle">
+                          Music subtitle
+                      </p>
+                  </div>
+                  <div class="music-icons">
+                      <i class="ti-music"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="bottom-panel">
+
+          <audio id="audio" src=""></audio>
+          <!-- <div class="music-details">
+              <h4 class="music-title">Nan</h4>
+              <p class="music-artist">Nan</p>
+          </div> -->
+          <div class="music-bar">
+              <p id="currentTime">0.00</p>
+              <div class="progressbar">
+                  <div class="progress"></div>
+              </div>
+              <p id="durationTime">0.00</p>
+          </div>
+          <div class="music-controls">
+              <i id="prev" class="fa fa-backward"></i>
+              <i id="play" class="fa fa-play-circle-o"></i>
+              <i id="next" class="fa fa-forward"></i>
+          </div>
+      </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+  <script src="./js/pushapi.js"></script>
+</body>
+</html>

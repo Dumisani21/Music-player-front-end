@@ -1,0 +1,34 @@
+{
+   "Music": [
+    {
+        "id": 0,
+        "title": "01. Still Up All Night",
+        "artist": "Eli Sostre",
+        "location": "./music/01. Still Up All Night"
+    },
+    {
+        "id": 1,
+        "title": "02. New Pirelli",
+        "artist": "Eli Sostre",
+        "location": "./music/02. New Pirelli"
+    },
+    {
+        "id": 2,
+        "title": "03. Passenger",
+        "artist": "Eli Sostre",
+        "location": "./music/03. Passenger"
+    },
+    {
+        "id": 3,
+        "title": "04. Vibe With",
+        "artist": "Eli Sostre",
+        "location": "./music/04. Vibe With"
+    },
+    {
+        "id": 4,
+        "title": "05. Pick It Up",
+        "artist": "Eli Sostre",
+        "location": "./music/05. Pick It Up"
+    }
+]
+}
